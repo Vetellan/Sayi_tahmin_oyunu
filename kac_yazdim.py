@@ -30,7 +30,7 @@ def kac_yazdim():
 # Oyunu tekrar oynamak için dış döngü
 while True:
     kac_yazdim()
-    cevap = input("Tekrar oynamak ister misin? ('e' / 'h'): ")
+    cevap = input("Tekrar oynamak ister misin? ('e' / 'h'): ")    #h dışında bir şey yazınca da kapatıyor e değil ise...
     if cevap.lower() != "e":
         print("Görüşmek üzere!")
         break
